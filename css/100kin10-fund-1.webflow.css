@@ -65,9 +65,9 @@ h5 {
   padding-right: 15%;
   padding-left: 15%;
   background-color: #333;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/100kin10-Chemistry-Hood.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/100kin10-Chemistry-Hood.jpg');
-  background-position: 0px 0px, 50% 50%;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/59_Lenahan7 - JBEI - wht balance adjusted.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/59_Lenahan7 - JBEI - wht balance adjusted.jpg');
+  background-position: 0px 0px, 50% -100px;
   background-size: auto, cover;
   background-repeat: repeat, repeat-x;
 }
