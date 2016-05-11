@@ -1,0 +1,708 @@
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h1 {
+  margin-top: auto;
+  margin-bottom: 15px;
+  font-family: 'Brandontext medium', sans-serif;
+  color: #fff;
+  font-size: 50px;
+  line-height: 55px;
+  font-weight: 400;
+  text-align: center;
+}
+
+h2 {
+  margin-top: auto;
+  margin-bottom: 10px;
+  font-family: 'Brandontext medium', sans-serif;
+  color: #fff;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 400;
+  text-align: center;
+}
+
+h3 {
+  position: static;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: 'Brandontext medium', sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Brandontext regular', sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.header {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 1000;
+  height: 60px;
+  background-color: #e4ae17;
+}
+
+.hero {
+  height: 600px;
+  padding-top: 20%;
+  padding-right: 15%;
+  padding-left: 15%;
+  background-color: #333;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/100kin10-Chemistry-Hood.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/100kin10-Chemistry-Hood.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, repeat-x;
+}
+
+._100kin10-logo {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.white {
+  font-family: 'Brandontext regular', sans-serif;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+}
+
+.section-1 {
+  margin-bottom: -250px;
+  padding: 40px 10% 0%;
+  background-image: url('../images/100kin10-icons.png');
+  background-position: 50% 43%;
+  background-size: 1000px;
+  background-repeat: repeat-x;
+}
+
+.chart {
+  display: block;
+  width: 504px;
+  height: 504px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 3px;
+  border-radius: 400px;
+  background-color: #333;
+}
+
+.section-2 {
+  position: relative;
+  top: -20px;
+  margin-bottom: -20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #333;
+}
+
+.funder-name {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-family: 'Brandontext regular', sans-serif;
+  color: #fff;
+  text-align: left;
+}
+
+.fund-1 {
+  height: 15px;
+  margin-bottom: 15px;
+}
+
+.spent {
+  display: inline-block;
+  width: 8.47%;
+  height: 15px;
+  background-color: #fff;
+}
+
+.spent.google {
+  width: 67.8%;
+}
+
+.spent.bill {
+  width: 50.85%;
+}
+
+.spent.william {
+  width: 10.17%;
+}
+
+.spent.dow {
+  width: 8.47%;
+}
+
+.spent.charles {
+  width: 16.95%;
+}
+
+.spent.sd {
+  width: 50.85%;
+}
+
+.spent.carnegie {
+  width: 90.52%;
+}
+
+.spent.michael {
+  width: 8.47%;
+}
+
+.spent.new {
+  width: 8.47%;
+}
+
+.spent.greater {
+  width: 8.47%;
+}
+
+.spent.heising {
+  width: 8.47%;
+}
+
+.spent.jp {
+  width: 16.95%;
+}
+
+.spent.ca {
+  width: 25.42%;
+}
+
+.spent.freeport {
+  width: 25.42%;
+}
+
+.over {
+  display: inline-block;
+  width: 4%;
+  height: 15px;
+  clear: none;
+  background-color: #e4ae17;
+}
+
+.over.bill {
+  width: 48.5%;
+  margin-left: -4px;
+}
+
+.over.william {
+  width: 13.56%;
+  margin-left: -4px;
+}
+
+.over.dow {
+  width: 8.47%;
+  margin-left: -4px;
+}
+
+.over.charles {
+  width: 12.08%;
+  margin-left: -4px;
+}
+
+.over.sd {
+  width: 24.24%;
+  margin-left: -4px;
+}
+
+.over.carnegie {
+  width: 5.5%;
+  margin-left: -4px;
+}
+
+.section-subhead {
+  margin-bottom: 40px;
+  font-family: 'Brandontext light', sans-serif;
+  color: #ccc;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.section-subhead.grey {
+  margin-bottom: 60px;
+}
+
+.chart-numbers {
+  display: inline-block;
+  margin-left: 10px;
+  font-family: 'Brandontext light', sans-serif;
+  color: #ccc;
+  font-size: 10px;
+}
+
+.chart-numbers.white {
+  opacity: 1;
+}
+
+.chart-numbers.total {
+  font-family: 'Brandontext medium', sans-serif;
+  color: #fff;
+}
+
+.yellow {
+  color: #e4ae17;
+  text-decoration: none;
+}
+
+.key-title {
+  display: inline-block;
+  margin-left: 10px;
+  padding-bottom: 0px;
+  font-family: 'Brandontext medium', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.key-block {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-color: #fff;
+}
+
+.key-block.yellow-block {
+  margin-left: 30px;
+  background-color: #e4ae17;
+}
+
+.key-div {
+  margin-bottom: 40px;
+  padding-top: 13px;
+  padding-bottom: 11px;
+  padding-left: 21px;
+  border-radius: 6px;
+  background-color: #000;
+  background-image: -webkit-linear-gradient(4deg, #1f1f1f, #333);
+  background-image: linear-gradient(86deg, #1f1f1f, #333);
+}
+
+.arrow-down {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 60px;
+  background-color: #e4ae17;
+  background-image: url('../images/arrow-down.png');
+  background-position: 50% 57%;
+  background-size: 45px;
+  background-repeat: no-repeat;
+  opacity: 0;
+}
+
+.chart-text {
+  margin-bottom: 5px;
+  font-family: 'Brandontext regular', sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.chart-percentage {
+  margin-bottom: 5px;
+  font-family: 'Brandontext medium', sans-serif;
+  color: #fff;
+  font-size: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+
+.big-chart-header {
+  margin-bottom: 30px;
+  font-family: 'Brandontext medium', sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: none;
+}
+
+.chart-overlay {
+  position: relative;
+  top: 45px;
+  display: block;
+  width: 400px;
+  height: 400px;
+  margin-top: 1px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 30px;
+  border-radius: 400px;
+  background-color: #e4ae17;
+}
+
+.section-3 {
+  margin-top: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: transparent;
+  background-image: url('../images/grid.gif');
+  background-position: 50% 15px;
+  background-size: 20px;
+}
+
+.grey {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.quote-1 {
+  padding-right: 15%;
+  padding-left: 15%;
+  background-color: #333;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/100kin10-california-state-university.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/100kin10-california-state-university.jpg');
+  background-position: 0px 0px, 50% 0px;
+  background-size: auto, cover;
+  background-repeat: repeat, repeat-x;
+  opacity: 1;
+}
+
+.quote {
+  margin-top: 15%;
+  margin-bottom: 20px;
+  font-family: 'Brandontext medium', sans-serif;
+  color: #fff;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+}
+
+.quote-byline {
+  font-family: 'Brandontext regular', sans-serif;
+  color: #e4ae17;
+  text-align: center;
+}
+
+.quote-2 {
+  padding-right: 15%;
+  padding-left: 15%;
+  background-color: #333;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/100kin10-IISME.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/100kin10-IISME.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.big-chart-subhead {
+  margin-top: 3px;
+  font-family: 'Brandontext regular', sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.partners-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-bottom: 15px;
+  margin-left: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-bottom: 1px none #ccc;
+  font-family: 'Brandontext medium', sans-serif;
+  color: #333;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.partners-link:hover {
+  border-bottom: 0px none #e4ae17;
+  color: #e4ae17;
+}
+
+.partners-info {
+  display: inline-block;
+  padding: 20px 26px;
+  background-color: rgba(228, 174, 23, .2);
+  font-family: 'Brandontext regular', sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.partners-block {
+  margin-bottom: 20px;
+}
+
+.quote-3 {
+  padding-right: 15%;
+  padding-left: 15%;
+  background-color: #333;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/100kin10-california-state-university-2.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/100kin10-california-state-university-2.jpg');
+  background-position: 0px 0px, 50% 0px;
+  background-size: auto, cover;
+}
+
+.quote-slider {
+  height: 400px;
+}
+
+.section-4 {
+  margin-bottom: 60px;
+}
+
+.quote-4 {
+  padding-right: 15%;
+  padding-left: 15%;
+  background-color: #333;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/100kin10-IISME-2.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/100kin10-IISME-2.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.break-out {
+  margin-top: 60px;
+}
+
+.break-out-paragraph {
+  font-family: 'Brandontext regular', sans-serif;
+  color: #ccc;
+}
+
+.breakout-link {
+  color: #e4ae17;
+  text-decoration: none;
+}
+
+.footer {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: -60px;
+  z-index: 3000;
+  height: 60px;
+  background-color: #e4ae17;
+}
+
+.footer-link {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  font-family: 'Brandontext medium', sans-serif;
+  color: #333;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+html.w-mod-js *[data-ix="chartfade-in"] {
+  opacity: 0;
+}
+
+html.w-mod-js *[data-ix="chartslide-in"] {
+  -webkit-transform: translate(1000px, 0px);
+  -ms-transform: translate(1000px, 0px);
+  transform: translate(1000px, 0px);
+}
+
+html.w-mod-js *[data-ix="partners-infodisplay-none"] {
+  display: none;
+}
+
+html.w-mod-js *[data-ix="hide-on-load"] {
+  opacity: 0.4;
+}
+
+@media (max-width: 991px) {
+  .quote {
+    margin-top: 80px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-2 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .quote {
+    margin-top: 80px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .footer-link {
+    font-size: 10px;
+    line-height: 14px;
+  }
+}
+
+@media (max-width: 479px) {
+  h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .hero {
+    padding-top: 200px;
+  }
+  ._100kin10-logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .section-1 {
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+  .chart {
+    width: 302px;
+    height: 302px;
+  }
+  .section-2 {
+    top: 80px;
+    margin-bottom: auto;
+  }
+  .funder-name {
+    font-size: 9px;
+  }
+  .section-subhead {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .chart-numbers.white {
+    margin-left: 5px;
+    font-size: 7px;
+  }
+  .chart-numbers.yellow {
+    margin-left: 5px;
+    font-size: 7px;
+  }
+  .chart-numbers.total {
+    margin-left: 5px;
+    font-size: 7px;
+  }
+  .key-title {
+    font-family: 'Brandontext medium', sans-serif;
+    font-size: 14px;
+  }
+  .key-block {
+    width: 12px;
+    height: 12px;
+  }
+  .key-block.yellow-block {
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
+  }
+  .chart-text {
+    margin-bottom: 0px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .chart-percentage {
+    margin-bottom: 0px;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .big-chart-header {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .chart-overlay {
+    top: 27px;
+    width: 240px;
+    height: 240px;
+    padding-top: 20px;
+  }
+  .section-3 {
+    margin-top: auto;
+    padding-top: 120px;
+  }
+  .quote {
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .quote-byline {
+    font-size: 10px;
+  }
+  .big-chart-subhead {
+    margin-top: auto;
+    font-size: 9px;
+  }
+  .partners-link {
+    font-size: 14px;
+  }
+}
+
+@font-face {
+  font-family: 'Brandontext bold';
+  src: url('../fonts/BrandonText-Bold.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandontext light';
+  src: url('../fonts/BrandonText-Light.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandontext medium';
+  src: url('../fonts/BrandonText-Medium.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandontext regular';
+  src: url('../fonts/BrandonText-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandontext';
+  src: url('../fonts/BrandonText-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
